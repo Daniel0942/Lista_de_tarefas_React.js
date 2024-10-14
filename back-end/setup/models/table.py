@@ -35,5 +35,6 @@ def deletarValores(id):
     conectar.commit()
     conectar.close()
     
+#criarTabela()
 #adicionarValores()
 #deletarValores(5)
