@@ -33,8 +33,7 @@ function NovaTarefa() {
             titulo= "Nova tarefa"
             texto1= "Nome da tarefa"
             texto2 = "Especificação da tarefa"
-            txtbutton= "Enviar"
-            />
+            txtbutton= "Enviar"/>
             <Footer/>
         </>
 )
