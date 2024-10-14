@@ -1,0 +1,20 @@
+.footer {
+    text-align: center;
+    background-color: black;
+    margin: 2% 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.footer ul li svg {
+    font-size: 35px;
+    cursor: pointer;
+    color: #61dafb;
+}
+.footer p {
+    color: white;
+    padding-bottom: 15px;
+}

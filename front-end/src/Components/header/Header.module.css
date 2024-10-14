@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:  20px 40px;
+}
+.flex ul {
+    margin: 140px 52px 0px 0px;
+}
+.flex ul  li {
+    display: inline-block;
+    padding: 14px;
+    margin: 0 5px;
+    background-color: #61dafb;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.flex ul li:hover {
+    transform: scale(1.08);
+}
+.flex ul li a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}

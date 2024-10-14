@@ -1,0 +1,49 @@
+.container {
+    width: 300px;
+    height: 100%;
+    margin: 2% 20px;
+    padding: 10px;
+    border: 2px solid #525252;
+    border-radius: 10px;
+}
+.container h4 {
+    width: 60px;
+    margin: 0 auto;
+    background-color: #343434;
+    color: #61dafb;
+    padding: 8px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.container p {
+    margin-top: 4px;
+}
+
+.container button {
+    width: 120px;
+    height: 35px;
+    margin: 6px 0;
+    color: #333232;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #61dafbc7;
+    transition: 0.5s;
+}
+
+.container button:hover {
+    transform: scale(1.05);
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsivo */
+@media screen and (max-width: 892px) {
+    .container {
+        width: 270px;
+    }
+}
