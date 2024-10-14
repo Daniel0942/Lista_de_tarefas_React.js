@@ -14,7 +14,7 @@ function EditarTarefa() {
     let navigate = useNavigate() // redirects
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/api/data/${id}`)
+        axios.get(`https://lista-de-tarefas-react-js-backend.onrender.com/api/data/${id}`)
             .then(response => {
                 // verificar se tem algo na array requisitada
                 if (response.data.length > 0) {
@@ -29,7 +29,7 @@ function EditarTarefa() {
 
     function Editar(e) { 
         e.preventDefault()
-        axios.put(`http://localhost:5000/api/data/${id}`, {
+        axios.put(`https://lista-de-tarefas-react-js-backend.onrender.com/api/data/${id}`, {
             "name": edit_name,
             "msg": edit_msg
         })

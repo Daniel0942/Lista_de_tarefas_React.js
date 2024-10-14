@@ -16,7 +16,7 @@ function NovaTarefa() {
         let novaTarefa = { name, msg } // Cria um objeto com os dados da nova tarefa
 
         try {
-            await axios.post("http://localhost:5000/api/data", novaTarefa) // Envia os dados para a API
+            await axios.post("https://lista-de-tarefas-react-js-backend.onrender.com/api/data", novaTarefa) // Envia os dados para a API
             setName("") // Limpa o campo de entrada do nome
             setMsg("") // Limpa o campo de entrada da mensagem
             navigate("/tarefas")

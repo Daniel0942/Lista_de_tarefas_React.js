@@ -12,7 +12,7 @@ function Tarefas() {
     let [removeloading, setRemoveloading] = useState(false) //loading
 
     useEffect(() => {
-        axios.get("http://localhost:5000/api/data")
+        axios.get("https://lista-de-tarefas-react-js-backend.onrender.com/api/data")
             .then(response => {
                 setData(response.data)
                 setRemoveloading(true) // tirar o loading quando os dados chegarem
@@ -21,7 +21,7 @@ function Tarefas() {
     }, [])
 
     function ExcluirTarefa(id) {
-        axios.delete(`http://localhost:5000/api/data/${id}`)
+        axios.delete(`https://lista-de-tarefas-react-js-backend.onrender.com/api/data/${id}`)
             .then((response) => {
                 console.log(`Tarefa deletada com sucesso`);
                 // Aqui você pode atualizar o estado ou remover o item da UI
