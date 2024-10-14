@@ -4,8 +4,8 @@ from flask import  request, jsonify  # 'jsonify' pra convertar banco de dados em
 
 @app.route("/")
 def index():
-    return "teste"
-    
+    return "Back-end da Lista de Tarefas feita em React"
+
 # pegar dados do banco de dados, e retorna-los em json, assim no front ele dá o GET (busca) para pegar esse banco de dados, criando assim uma conexão do back e o front.
 @app.route("/api/data", methods=["GET"])
 def api():
