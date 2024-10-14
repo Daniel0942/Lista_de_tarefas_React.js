@@ -24,3 +24,11 @@
     font-weight: 600;
     text-decoration: none;
 }
+
+/* responsivo */
+@media screen and (max-width: 892px) {
+    .flex {
+        padding: 10px;
+        justify-content: space-around;
+    }
+}

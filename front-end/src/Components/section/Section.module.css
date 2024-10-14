@@ -54,16 +54,18 @@ span {
         width: 80%;
         flex-direction: column-reverse;
         justify-content: center;
+        align-items: center;
         margin: 0 auto;
         & img {
-            width: 200px;
-            height: 200px;
-            margin: 0 auto;
+            display: none;
         }
         & .caixa_texto {
-            width: 350px;
-            height: 420px;
+            width: 270px;
+            height: 100%;
             margin: 2% auto;
+        }
+        & button {
+            width: 120px;
         }
     }
 }
